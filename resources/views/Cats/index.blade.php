@@ -9,4 +9,5 @@
             <a href="Cats/{{$cat->id}}/edit">editar </a> <a href="Cats/{{$cat->id}}">acessar </a>
         </p>
     @endforeach
+    {{$CatCollection->links()}}
 @endsection
